@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>VC_img_Se</key>
+		<string>account_highlight</string>
+		<key>VC</key>
+		<string>x_xViewController</string>
+		<key>VC_name</key>
+		<string>秀一个</string>
+		<key>VC_img</key>
+		<string>account_normal</string>
+	</dict>
+	<dict>
+		<key>VC</key>
+		<string>D_xViewController</string>
+		<key>VC_name</key>
+		<string>美食谱</string>
+		<key>VC_img</key>
+		<string>home_normal</string>
+		<key>VC_img_Se</key>
+		<string>home_highlight</string>
+	</dict>
+	<dict>
+		<key>VC</key>
+		<string>I_need_ViewController</string>
+		<key>VC_name</key>
+		<string>工具</string>
+		<key>VC_img</key>
+		<string>message_normal</string>
+		<key>VC_img_Se</key>
+		<string>message_highlight</string>
+	</dict>
+	<dict>
+		<key>VC</key>
+		<string>me_ViewController</string>
+		<key>VC_name</key>
+		<string>个人信息</string>
+		<key>VC_img</key>
+		<string>mycity_normal</string>
+		<key>VC_img_Se</key>
+		<string>mycity_highlight</string>
+	</dict>
+</array>
+</plist>
