@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047DFF3C1D66EEB500E5A234 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFF391D66EEB500E5A234 /* JASidePanelController.m */; };
+		047DFF3D1D66EEB500E5A234 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFF3B1D66EEB500E5A234 /* UIViewController+JASidePanel.m */; };
+		047DFF431D66F55100E5A234 /* DrawerMemueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFF421D66F55100E5A234 /* DrawerMemueController.m */; };
+		047DFF451D66F91300E5A234 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047DFF441D66F91300E5A234 /* UIKit.framework */; };
+		047DFF481D66F93B00E5A234 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047DFF471D66F93B00E5A234 /* QuartzCore.framework */; };
+		047DFF4A1D66F94A00E5A234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047DFF491D66F94A00E5A234 /* Foundation.framework */; };
+		047DFF4C1D66F95700E5A234 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047DFF4B1D66F95700E5A234 /* CoreGraphics.framework */; };
+		047DFF531D6AA87000E5A234 /* UIImage+cutTheRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFF521D6AA87000E5A234 /* UIImage+cutTheRounded.m */; };
 		230622A11D363506004C8376 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 230622A01D363506004C8376 /* main.m */; };
 		230622A41D363506004C8376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 230622A31D363506004C8376 /* AppDelegate.m */; };
 		230622AC1D363506004C8376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230622AB1D363506004C8376 /* Assets.xcassets */; };
@@ -42,6 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047DFF381D66EEB500E5A234 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		047DFF391D66EEB500E5A234 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		047DFF3A1D66EEB500E5A234 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		047DFF3B1D66EEB500E5A234 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		047DFF411D66F55100E5A234 /* DrawerMemueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawerMemueController.h; path = DrawerMenue/DrawerMemueController.h; sourceTree = "<group>"; };
+		047DFF421D66F55100E5A234 /* DrawerMemueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawerMemueController.m; path = DrawerMenue/DrawerMemueController.m; sourceTree = "<group>"; };
+		047DFF441D66F91300E5A234 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		047DFF471D66F93B00E5A234 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		047DFF491D66F94A00E5A234 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		047DFF4B1D66F95700E5A234 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		047DFF511D6AA87000E5A234 /* UIImage+cutTheRounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+cutTheRounded.h"; sourceTree = "<group>"; };
+		047DFF521D6AA87000E5A234 /* UIImage+cutTheRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+cutTheRounded.m"; sourceTree = "<group>"; };
 		2306229C1D363506004C8376 /* create a New App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "create a New App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		230622A01D363506004C8376 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		230622A21D363506004C8376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +99,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047DFF4C1D66F95700E5A234 /* CoreGraphics.framework in Frameworks */,
+				047DFF4A1D66F94A00E5A234 /* Foundation.framework in Frameworks */,
+				047DFF481D66F93B00E5A234 /* QuartzCore.framework in Frameworks */,
+				047DFF451D66F91300E5A234 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +123,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047DFF371D66EE3A00E5A234 /* JASidePanels */ = {
+			isa = PBXGroup;
+			children = (
+				047DFF381D66EEB500E5A234 /* JASidePanelController.h */,
+				047DFF391D66EEB500E5A234 /* JASidePanelController.m */,
+				047DFF3A1D66EEB500E5A234 /* UIViewController+JASidePanel.h */,
+				047DFF3B1D66EEB500E5A234 /* UIViewController+JASidePanel.m */,
+			);
+			path = JASidePanels;
+			sourceTree = "<group>";
+		};
+		047DFF461D66F91F00E5A234 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				047DFF4B1D66F95700E5A234 /* CoreGraphics.framework */,
+				047DFF491D66F94A00E5A234 /* Foundation.framework */,
+				047DFF471D66F93B00E5A234 /* QuartzCore.framework */,
+				047DFF441D66F91300E5A234 /* UIKit.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		047DFF4D1D6AA2FF00E5A234 /* drawercell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = drawercell;
+			sourceTree = "<group>";
+		};
+		047DFF4E1D6AA31300E5A234 /* drawerpushVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = drawerpushVC;
+			sourceTree = "<group>";
+		};
+		047DFF4F1D6AA84600E5A234 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				047DFF501D6AA87000E5A234 /* 贝塞尔曲线切圆类别 */,
+			);
+			name = tool;
+			sourceTree = "<group>";
+		};
+		047DFF501D6AA87000E5A234 /* 贝塞尔曲线切圆类别 */ = {
+			isa = PBXGroup;
+			children = (
+				047DFF511D6AA87000E5A234 /* UIImage+cutTheRounded.h */,
+				047DFF521D6AA87000E5A234 /* UIImage+cutTheRounded.m */,
+			);
+			path = "贝塞尔曲线切圆类别";
+			sourceTree = "<group>";
+		};
 		04E77C991D4F1BBB000DD8B4 /* nav */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +186,10 @@
 				230622E21D363683004C8376 /* main-Nav-C.m */,
 				230622EC1D36616C004C8376 /* Z-D-Y-MainTabbar.h */,
 				230622ED1D36616C004C8376 /* Z-D-Y-MainTabbar.m */,
+				047DFF411D66F55100E5A234 /* DrawerMemueController.h */,
+				047DFF421D66F55100E5A234 /* DrawerMemueController.m */,
+				047DFF4E1D6AA31300E5A234 /* drawerpushVC */,
+				047DFF4D1D6AA2FF00E5A234 /* drawercell */,
 			);
 			name = nav;
 			sourceTree = "<group>";
@@ -125,6 +206,7 @@
 		04E77CA51D4F27F3000DD8B4 /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				047DFF371D66EE3A00E5A234 /* JASidePanels */,
 			);
 			name = "第三方";
 			sourceTree = "<group>";
@@ -132,6 +214,8 @@
 		230622931D363506004C8376 = {
 			isa = PBXGroup;
 			children = (
+				047DFF4F1D6AA84600E5A234 /* tool */,
+				047DFF461D66F91F00E5A234 /* framework */,
 				2306229E1D363506004C8376 /* create a New App */,
 				230622B81D363506004C8376 /* create a New AppTests */,
 				230622C31D363506004C8376 /* create a New AppUITests */,
@@ -334,10 +418,14 @@
 				230622E01D363655004C8376 /* main-Tab-bar.m in Sources */,
 				230622A11D363506004C8376 /* main.m in Sources */,
 				230622DD1D36361A004C8376 /* me-ViewController.m in Sources */,
+				047DFF3C1D66EEB500E5A234 /* JASidePanelController.m in Sources */,
 				230622D71D3635F1004C8376 /* D-xViewController.m in Sources */,
 				230622D41D3635E1004C8376 /* x-xViewController.m in Sources */,
 				230622E31D363683004C8376 /* main-Nav-C.m in Sources */,
+				047DFF431D66F55100E5A234 /* DrawerMemueController.m in Sources */,
+				047DFF3D1D66EEB500E5A234 /* UIViewController+JASidePanel.m in Sources */,
 				230622EE1D36616C004C8376 /* Z-D-Y-MainTabbar.m in Sources */,
+				047DFF531D6AA87000E5A234 /* UIImage+cutTheRounded.m in Sources */,
 				230622DA1D36360B004C8376 /* I-need-ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

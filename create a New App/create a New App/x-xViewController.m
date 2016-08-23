@@ -8,6 +8,9 @@
 
 #import "x-xViewController.h"
 
+
+
+#import "JASidePanelController.h"
 @interface x_xViewController ()
 
 @end
@@ -18,13 +21,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
+    [self.view setBackgroundColor:[UIColor greenColor]];
+    
+    JASidePanelController * JAS = [[JASidePanelController alloc]init];
+        self.navigationItem.leftBarButtonItem = [JAS leftButtonForCenterPanel];
+    
 
-    UIBarButtonItem * leftItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"home_normal"] style:UIBarButtonItemStyleDone target:self action:@selector(leftMenuAction)];
-    self.navigationItem.leftBarButtonItem = leftItem;
 }
 -(void)leftMenuAction{
 
-    
+  
     
 }
 - (void)didReceiveMemoryWarning {

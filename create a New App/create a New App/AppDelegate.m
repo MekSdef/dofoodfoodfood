@@ -8,9 +8,11 @@
 
 #import "AppDelegate.h"
 #import "main-Tab-bar.h"
-@interface AppDelegate ()
+#import "JASidePanelController.h"
+#import "DrawerMemueController.h"
 
-@end
+//Debug
+#import "x-xViewController.h"
 
 @implementation AppDelegate
 
@@ -19,9 +21,18 @@
 
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     main_Tab_bar * TabBar = [[main_Tab_bar alloc]init];
-    self.window.rootViewController =TabBar;
-   
+    NSLog(@"%@ tabbar",TabBar);
+    JASidePanelController * sidePanel = [[JASidePanelController alloc]init];
+    sidePanel.leftPanel =[[DrawerMemueController alloc]init];
+//    x_xViewController * clas =  [[x_xViewController alloc]init];
+//    sidePanel.centerPanel = [[UINavigationController alloc]initWithRootViewController:clas]  ;
+    sidePanel.centerPanel  = TabBar;
+    sidePanel.leftGapPercentage = 0.4f;
+    self.window.rootViewController = sidePanel;
     [self.window makeKeyAndVisible];
+
+    
+    
     return YES;
 }
 
